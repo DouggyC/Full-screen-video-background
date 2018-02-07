@@ -8,8 +8,11 @@ body {
   margin: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
-  color: #F9F3F4;
-  line-height: 1.6;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  line-height: 2;
+  text-rendering: optimizeLegibility;
+  text-align: center;
 }
 
 #showcase {
@@ -23,20 +26,28 @@ body {
 }
 
 #showcase h1 {
-  font-size: 50px;
+  font-size: 3.2vw;
+  font-weight: bold;
   line-height: 1.2;
+  font-family: 'Ubuntu';
+  letter-spacing: 0.2em;
 }
 
-#showcase p {
-  font-size: 20px;
+#showcase h5 {
+  font-size: 2.5vw;
+  letter-spacing: 0.2em;
+  margin-bottom: 25%;
 }
 
 #showcase .button {
   font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
   text-decoration: none;
-  color: #F9F3F4;
-  border: #2E3FD6 2px solid;
-  padding: 10px 20px;
+  color: #53ecbb;
+  border: #53ecbb 3px solid;
+  background-color: rgba(249, 243, 244, 0.3);
+  padding: 12px 20px;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -54,6 +65,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: -99;
+  padding-bottom: 56.25%;
 }
 
 .video-foreground, .video-background iframe {
